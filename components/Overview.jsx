@@ -39,7 +39,7 @@ const Overview = ({ setIsOpen }) => {
               <div className="mb-5 pr-0 lg:pr-6">
                 <div className={`text-[#6c757d] text-[15px] leading-[1.7] text-justify ${!isExpanded ? 'line-clamp-5 overflow-hidden' : ''}`}>
                   <p className="m-0 mb-3">
-                    Bhadra Landmark 95 is an ultra-luxurious residential project located on Bhadra Road, Kengeri, Bengaluru. Spanning 23 acres, this grand development redefines high-rise living with its 4 towering structures, each soaring 69 floors high. Designed to offer an unparalleled lifestyle, the project features 2016 premium residences that blend modern aesthetics with thoughtful planning.
+                    Bhadra Landmark 95 is an ultra-luxurious residential project located on Bhadra Road, Kengeri, Bengaluru. Spanning 23 acres, this grand development redefines high-rise living with its 4 towering structures, each soaring 99 floors high. Designed to offer an unparalleled lifestyle, the project features 2016 premium residences that blend modern aesthetics with thoughtful planning.
                   </p>
                   <p className="m-0">
                     Bhadra Kengeri offers spacious 3 &amp; 4 BHK apartments ranging from 2106–2601 sq. ft., ensuring ample space for comfort and luxury. With a price range of ₹ 3 Cr*, these residences are meticulously designed to provide an elite living experience. The project adheres to 100% Vastu compliance, fostering harmony and well-being for its residents. Furthermore, the no common walls concept ensures absolute privacy and exclusivity.
@@ -100,7 +100,7 @@ const Overview = ({ setIsOpen }) => {
                   </div>
                   <div>
                     <h5 className="text-[#222222] font-bold text-[13.5px] sm:text-[16px] mb-1 leading-snug">Towers &amp; Elevation</h5>
-                    <p className="text-[#6c757d] text-[12px] sm:text-[14px] m-0 leading-normal">4 Towers, G+69 Floors</p>
+                    <p className="text-[#6c757d] text-[12px] sm:text-[14px] m-0 leading-normal">4 Towers, G+99 Floors</p>
                   </div>
                 </div>
               </div>
