@@ -56,7 +56,7 @@ const Hero = ({ setIsOpen }) => {
       <div className="w-full pt-[82px] pb-8 sm:pt-[88px] sm:pb-10 lg:pt-[98px] lg:pb-12 relative z-10">
 
         {/* Ambient subtle glow in background (static) */}
-        <div className="absolute top-0 right-1/4 w-72 sm:w-[450px] h-72 sm:h-[450px] bg-[#b31c26]/15 rounded-full blur-[100px] pointer-events-none" />
+        <div className="absolute top-0 right-1/4 w-72 sm:w-[450px] h-72 sm:h-[450px] bg-[#1C3F64]/15 rounded-full blur-[100px] pointer-events-none" />
 
         <div className="container mx-auto px-3.5 sm:px-6" style={{ maxWidth: '1380px' }}>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 lg:gap-10 items-start">
@@ -72,7 +72,7 @@ const Hero = ({ setIsOpen }) => {
                   <h1 className="text-white font-black tracking-tight leading-[1.08] text-[28px] xs:text-[32px] sm:text-[38px] md:text-[44px] m-0">
                     Bhadra Landmark 95 
                   </h1>
-                  <span className="text-[10px] sm:text-[11px] uppercase tracking-[1.5px] font-semibold text-[#ff808a] bg-[#b31c26]/20 border border-[#ff4d5a]/30 px-2.5 py-0.5 rounded-full self-center">
+                  <span className="text-[10px] sm:text-[11px] uppercase tracking-[1.5px] font-semibold text-[#ff808a] bg-[#1C3F64]/20 border border-[#ff4d5a]/30 px-2.5 py-0.5 rounded-full self-center">
                     By Bhadra Group
                   </span>
                 </div>
@@ -131,7 +131,7 @@ const Hero = ({ setIsOpen }) => {
                       }}
                       className={`py-2 px-1 rounded-lg text-xs sm:text-sm font-semibold transition-all cursor-pointer text-center border truncate ${
                         isActive
-                          ? 'bg-[#b31c26] text-white border-[#b31c26] shadow-md'
+                          ? 'bg-[#1C3F64] text-white border-[#1C3F64] shadow-md'
                           : 'bg-white/10 text-white/75 border-transparent hover:bg-white/20 hover:text-white'
                       }`}
                     >
@@ -183,7 +183,7 @@ const Hero = ({ setIsOpen }) => {
                   WebkitBackdropFilter: 'blur(28px)',
                   border: '1px solid rgba(255, 255, 255, 0.16)',
                   boxShadow: '0 20px 60px rgba(0, 0, 0, 0.65)',
-                  borderTop: '4px solid #b31c26',
+                  borderTop: '4px solid #1C3F64',
                 }}
               >
                 {/* Header */}
@@ -204,13 +204,13 @@ const Hero = ({ setIsOpen }) => {
                   <button
                     type="button"
                     onClick={() => setIsOpen && setIsOpen(true)}
-                    className="text-[#d93843] hover:underline flex items-center gap-1.5 font-semibold cursor-pointer"
+                    className="text-[#285586] hover:underline flex items-center gap-1.5 font-semibold cursor-pointer"
                   >
                     <i className="fas fa-calendar-check text-[11px]" />
                     <span>Book VIP Visit</span>
                   </button>
                   <a
-                    href="tel:+919560582493"
+                    href="tel:+919718344024"
                     className="text-emerald-400 hover:underline flex items-center gap-1.5 font-semibold"
                   >
                     <i className="fas fa-phone text-[11px]" />

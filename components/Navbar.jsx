@@ -57,12 +57,12 @@ const Navbar = ({ setIsOpen }) => {
                 style={{
                   fontSize: '15px',
                   fontWeight: link.active ? '700' : '600',
-                  color: link.active ? '#b31c26' : '#2d3748',
+                  color: link.active ? '#1C3F64' : '#2d3748',
                   transition: 'color 0.2s',
                   whiteSpace: 'nowrap'
                 }}
                 onMouseEnter={e => {
-                  if (!link.active) e.target.style.color = '#b31c26'
+                  if (!link.active) e.target.style.color = '#1C3F64'
                 }}
                 onMouseLeave={e => {
                   if (!link.active) e.target.style.color = '#2d3748'
@@ -79,18 +79,18 @@ const Navbar = ({ setIsOpen }) => {
               onClick={() => setIsOpen(true)}
               className="inline-flex items-center justify-center px-6 py-2.5 rounded-[50px] font-semibold text-[15px] transition-all duration-300 whitespace-nowrap"
               style={{
-                background: '#b31c26',
+                background: '#1C3F64',
                 color: '#ffffff',
-                border: '2px solid #b31c26',
-                boxShadow: '0 4px 14px 0 rgba(179, 28, 38, 0.39)',
+                border: '2px solid #1C3F64',
+                boxShadow: '0 4px 14px 0 rgba(28, 63, 100, 0.39)',
               }}
               onMouseEnter={e => {
                 e.currentTarget.style.background = '#ffffff';
-                e.currentTarget.style.color = '#b31c26';
+                e.currentTarget.style.color = '#1C3F64';
                 e.currentTarget.style.transform = 'translateY(-1px)';
               }}
               onMouseLeave={e => {
-                e.currentTarget.style.background = '#b31c26';
+                e.currentTarget.style.background = '#1C3F64';
                 e.currentTarget.style.color = '#ffffff';
                 e.currentTarget.style.transform = 'none';
               }}
@@ -129,7 +129,7 @@ const Navbar = ({ setIsOpen }) => {
                 padding: '14px 24px',
                 fontSize: '15px',
                 fontWeight: link.active ? '700' : '600',
-                color: link.active ? '#b31c26' : '#2d3748',
+                color: link.active ? '#1C3F64' : '#2d3748',
                 borderBottom: '1px solid rgba(0,0,0,0.05)',
                 transition: 'color 0.2s, background 0.2s',
               }}
@@ -143,13 +143,13 @@ const Navbar = ({ setIsOpen }) => {
             <button
               onClick={() => { setIsOpen(true); setMobileOpen(false) }}
               className="w-full py-3.5 px-4 rounded-[50px] font-semibold text-[15px] transition-all duration-300"
-              style={{ background: '#b31c26', color: '#ffffff', border: '2px solid #b31c26', boxShadow: '0 4px 14px 0 rgba(179, 28, 38, 0.39)' }}
+              style={{ background: '#1C3F64', color: '#ffffff', border: '2px solid #1C3F64', boxShadow: '0 4px 14px 0 rgba(28, 63, 100, 0.39)' }}
               onMouseEnter={e => {
                 e.currentTarget.style.background = '#ffffff';
-                e.currentTarget.style.color = '#b31c26';
+                e.currentTarget.style.color = '#1C3F64';
               }}
               onMouseLeave={e => {
-                e.currentTarget.style.background = '#b31c26';
+                e.currentTarget.style.background = '#1C3F64';
                 e.currentTarget.style.color = '#ffffff';
               }}
             >

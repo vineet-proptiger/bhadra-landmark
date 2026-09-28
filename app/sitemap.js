@@ -1,4 +1,4 @@
-const BASE_URL = 'https://bhadralandmark95.com'
+const BASE_URL = 'http://bhadralandmark95.com'
 
 export default function sitemap() {
   return [

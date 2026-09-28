@@ -60,7 +60,7 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Now' }) => {
         </svg>
       </div>
       <h4 className="text-xl font-bold text-[#ffffff] mb-2">Thank You!</h4>
-      <p className="text-[#fbe6e7] text-sm font-medium">Our team will contact you shortly.</p>
+      <p className="text-[#e8eff6] text-sm font-medium">Our team will contact you shortly.</p>
     </div>
   )
 
@@ -78,8 +78,7 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Now' }) => {
       <input
         type="email"
         name="email"
-        required
-        placeholder="Email Address*"
+        placeholder="Enter your email (Optional)"
         value={formData.email}
         onChange={handleChange}
         className="lead-form-input"
@@ -112,7 +111,7 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Now' }) => {
           required
           defaultChecked
           className="mt-1 shrink-0 cursor-pointer"
-          style={{ accentColor: '#b31c26', width: '16px', height: '16px' }}
+          style={{ accentColor: '#1C3F64', width: '16px', height: '16px' }}
         />
         <label
           htmlFor="consentCheck"

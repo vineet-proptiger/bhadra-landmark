@@ -9,15 +9,15 @@
    ═══════════════════════════════════════════════════════════════ */
 :root {
   /* ── Bhadra Landmark 95 Blue Accent Palette ── */
-  --color-gold: #b31c26;
-  --color-gold-light: #d93843;
-  --color-gold-dark: #8a1219;
-  --color-gold-bg: #fdf2f2;
+  --color-gold: #1C3F64;
+  --color-gold-light: #285586;
+  --color-gold-dark: #132c46;
+  --color-gold-bg: #e8eff6;
 
   /* ── Primary (same as blue) ── */
-  --color-primary: #b31c26;
-  --color-primary-light: #d93843;
-  --color-primary-dark: #8a1219;
+  --color-primary: #1C3F64;
+  --color-primary-light: #285586;
+  --color-primary-dark: #132c46;
 
   /* ── Dark backgrounds ── */
   --color-dark: #212529;
@@ -226,7 +226,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #b31c26, #8a1219);
+    background: linear-gradient(180deg, #1C3F64, #132c46);
     border-radius: 4px;
   }
 
@@ -235,7 +235,7 @@
   }
 
   ::selection {
-    background: rgba(179, 28, 38, 0.18);
+    background: rgba(28, 63, 100, 0.18);
     color: #003da5;
   }
 }
@@ -360,10 +360,10 @@
     font-weight: 700;
     font-family: var(--font-poppins), 'Poppins', sans-serif;
     letter-spacing: 2px;
-    box-shadow: -4px 0 20px rgba(179, 28, 38, 0.35);
-    background: #b31c26;
+    box-shadow: -4px 0 20px rgba(28, 63, 100, 0.35);
+    background: #1C3F64;
     color: #ffffff;
-    border: 2px solid #b31c26;
+    border: 2px solid #1C3F64;
     border-right: none;
     transition: all 0.3s ease;
     text-transform: uppercase;
@@ -373,9 +373,9 @@
   .btn-floating-tab:hover {
     transform: translateY(-50%) translateX(-3px) !important;
     background: #ffffff !important;
-    color: #b31c26 !important;
-    border-color: #b31c26;
-    box-shadow: -6px 0 25px rgba(179, 28, 38, 0.4);
+    color: #1C3F64 !important;
+    border-color: #1C3F64;
+    box-shadow: -6px 0 25px rgba(28, 63, 100, 0.4);
   }
 
   /* ══ SECTION TITLE ══ */
@@ -577,8 +577,8 @@
 }
 
 .lead-form-input:focus {
-  border-color: #b31c26;
-  box-shadow: 0 0 0 3px rgba(179, 28, 38, 0.12);
+  border-color: #1C3F64;
+  box-shadow: 0 0 0 3px rgba(28, 63, 100, 0.12);
 }
 
 .lead-form-input::placeholder {
@@ -589,9 +589,9 @@
 .lead-form-btn {
   width: 100%;
   padding: 14px 24px;
-  background: #b31c26;
+  background: #1C3F64;
   color: #ffffff;
-  border: 2px solid #b31c26;
+  border: 2px solid #1C3F64;
   border-radius: 8px;
   font-size: 16px;
   font-weight: 700;
@@ -603,9 +603,9 @@
 
 .lead-form-btn:hover {
   background: #ffffff !important;
-  color: #b31c26 !important;
-  border-color: #b31c26;
-  box-shadow: 0 8px 25px rgba(179, 28, 38, 0.35);
+  color: #1C3F64 !important;
+  border-color: #1C3F64;
+  box-shadow: 0 8px 25px rgba(28, 63, 100, 0.35);
   transform: translateY(-1px);
 }
 
@@ -617,8 +617,8 @@
 
 /* Hero buttons hover */
 .btn-blue:hover {
-  background: linear-gradient(135deg, #8a1219, #003da5) !important;
-  box-shadow: 0 12px 30px rgba(179, 28, 38, 0.4);
+  background: linear-gradient(135deg, #132c46, #003da5) !important;
+  box-shadow: 0 12px 30px rgba(28, 63, 100, 0.4);
 }
 
 .btn-white:hover {

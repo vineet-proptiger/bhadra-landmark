@@ -5,6 +5,6 @@ export default function robots() {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://bhadralandmark95.com/sitemap.xml',
+    sitemap: 'http://bhadralandmark95.com/sitemap.xml',
   }
 }

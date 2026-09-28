@@ -63,7 +63,7 @@ export default function Home() {
       <div className="sticky-bottom-bar">
         <a
           id="mobile-call"
-          href="tel:+919560582493"
+          href="tel:+919718344024"
           className="flex-1 flex flex-col items-center justify-center py-2 px-1"
           style={{ background: '#1a1a1a', borderRight: '1px solid #333' }}
         >
@@ -77,7 +77,7 @@ export default function Home() {
         <button
           onClick={() => setIsOpen(true)}
           className="flex-1 flex flex-col items-center justify-center py-2 px-1"
-          style={{ background: '#b31c26', borderRight: '1px solid #8a1219' }}
+          style={{ background: '#1C3F64', borderRight: '1px solid #132c46' }}
         >
           <div className="enquire-icon-wrap flex items-center justify-center">
             <svg width="22" height="22" fill="none" stroke="#ffffff" strokeWidth="2" viewBox="0 0 24 24">

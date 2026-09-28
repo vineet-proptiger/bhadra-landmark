@@ -18,20 +18,20 @@ const Footer = () => (
       {/* ── Subheading / Tagline ── */}
       <p 
         data-aos="fade-up" data-aos-delay="50"
-        className="text-[#b31c26] font-semibold text-[12px] sm:text-[13.5px] tracking-[2px] uppercase m-0"
+        className="text-white font-medium text-[12px] sm:text-[13.5px] tracking-[2px] uppercase m-0 opacity-90"
       >
         LANDMARK LUXURY RESIDENTIAL DEVELOPMENT — Kengeri, Bengaluru
       </p>
 
       {/* ── Accent Underline ── */}
-      <div className="w-12 h-[2.5px] bg-[#b31c26] my-6 rounded-full" />
+      <div className="w-12 h-[2.5px] bg-white my-6 rounded-full opacity-80" />
 
       {/* ── Developer Description ── */}
       <p 
         data-aos="fade-up" data-aos-delay="100"
         className="text-[#a1a1aa] text-[15px] sm:text-[16px] leading-[1.8] max-w-[920px] mb-10"
       >
-        Bhadra Group is a prominent real estate developer based in Bengaluru, with a portfolio spanning premium residential, commercial and mixed-use developments. The group has developed iconic projects across key locations, consistently delivering unparalleled luxury and quality. Its latest masterwork, Bhadra Landmark 95, stands as a testament to their commitment to excellence and architectural brilliance.
+        The Bhadra Group is a distinguished real estate developer, recognized for its unwavering commitment to delivering premium residential and commercial projects across Bangalore. With a strong foundation built on excellence, innovation, and customer satisfaction, the group has carved a niche in the city&apos;s dynamic real estate landscape.
       </p>
 
       {/* ── RERA Number Box ── */}
@@ -43,7 +43,7 @@ const Footer = () => (
           RERA No :
         </span>
         <span className="text-white font-bold text-[14px] sm:text-[15.5px] tracking-wide">
-          PRM/KA/RERA/1251/310/PR/2016
+          Comming Soon
         </span>
       </div>
 
@@ -54,7 +54,7 @@ const Footer = () => (
       <div className="w-full flex justify-end text-[13.5px] sm:text-[14px] mb-4">
         <Link
           href="/privacy-policy"
-          className="text-[#b31c26] hover:underline font-medium transition-colors duration-200"
+          className="text-white hover:text-neutral-300 hover:underline font-medium transition-colors duration-200"
         >
           Privacy Policy
         </Link>
@@ -62,7 +62,7 @@ const Footer = () => (
 
       {/* ── Detailed Legal Disclaimer ── */}
       <p className="w-full text-left text-neutral-500 text-[12px] leading-[1.75] m-0">
-        <strong className="text-[#b31c26]">Disclaimer:</strong> This is not the official website of the developer. The information depicted herein, including master plans, floor plans, furniture layout, fittings, illustrations, specifications, designs, dimensions, rendered views, colours, amenities and facilities etc., are subject to change without notification as may be required by the relevant authorities or the Developer&apos;s architect. This advertisement is an invitation to offer and shall not be construed as an offer or contract. * Prices subject to change without notice. All taxes extra as applicable.
+        <strong className="text-white font-semibold">Disclaimer:</strong> This is not the official website of the developer. The information depicted herein, including master plans, floor plans, furniture layout, fittings, illustrations, specifications, designs, dimensions, rendered views, colours, amenities and facilities etc., are subject to change without notification as may be required by the relevant authorities or the Developer&apos;s architect. This advertisement is an invitation to offer and shall not be construed as an offer or contract. * Prices subject to change without notice. All taxes extra as applicable.
       </p>
 
     </div>

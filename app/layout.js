@@ -40,16 +40,16 @@ const nephilm = localFont({
 })
 
 export const metadata = {
-  metadataBase: new URL('https://bhadralandmark95.com'),
+  metadataBase: new URL('http://bhadralandmark95.com'),
   title: 'Bhadra Landmark 95 | Luxury 3 & 4 BHK Apartments Bengaluru',
-  description: 'Bhadra Landmark 95 Bengaluru offers luxury 3 & 4 BHK apartments starting ₹3 Cr*. RERA Registered project with premium amenities. Enquire for details!',
+  description: 'Bhadra Landmark 95 Bengaluru offers luxury 3 & 4 BHK apartments starting ₹ 3 Cr*. RERA Registered project with premium amenities. Enquire for details!',
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Bhadra Landmark 95 | Luxury 3 & 4 BHK Apartments Bengaluru',
-    description: 'Bhadra Landmark 95 Bengaluru offers luxury 3 & 4 BHK apartments starting ₹3 Cr*. RERA Registered project with premium amenities. Enquire for details!',
-    url: 'https://bhadralandmark95.com',
+    description: 'Bhadra Landmark 95 Bengaluru offers luxury 3 & 4 BHK apartments starting ₹ 3 Cr*. RERA Registered project with premium amenities. Enquire for details!',
+    url: 'http://bhadralandmark95.com',
     siteName: 'Bhadra Landmark 95',
     type: 'website',
   },
