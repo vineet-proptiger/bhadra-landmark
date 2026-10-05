@@ -1,7 +1,7 @@
 export default function manifest() {
   return {
-    name: 'Bhadra Landmark 95',
-    short_name: 'Bhadra Landmark 95',
+    name: 'Bhadra Landmark Kengeri',
+    short_name: 'Bhadra Landmark Kengeri',
     description: 'Ultra-modern Neo-classical Residences in Bengaluru',
     start_url: '/',
     display: 'standalone',

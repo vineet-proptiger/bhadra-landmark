@@ -19,7 +19,7 @@ const VirtualTour = ({ setIsOpen }) => {
     >
       <Image
         src={virtualTourImage}
-        alt="Bhadra Landmark 95 Kengeri Virtual Tour"
+        alt="Bhadra Landmark Kengeri Virtual Tour"
         fill
         className="object-cover"
         quality={100}

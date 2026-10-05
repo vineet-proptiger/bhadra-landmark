@@ -69,8 +69,8 @@ const Hero = ({ setIsOpen }) => {
               {/* Heading & Brand Identity */}
               <div className="mb-3 sm:mb-4">
                 <div className="flex flex-wrap items-baseline gap-2.5 sm:gap-3.5 mb-1.5">
-                  <h1 className="text-white font-black tracking-tight leading-[1.08] text-[28px] xs:text-[32px] sm:text-[38px] md:text-[44px] m-0">
-                    Bhadra Landmark 95 
+                  <h1 className="text-white font-black tracking-tight leading-[1.08] text-[24px] xs:text-[28px] sm:text-[34px] md:text-[38px] m-0">
+                    Bhadra Landmark Kengeri
                   </h1>
                   <span className="text-[10px] sm:text-[11px] uppercase tracking-[1.5px] font-semibold text-[#ff808a] bg-[#1C3F64]/20 border border-[#ff4d5a]/30 px-2.5 py-0.5 rounded-full self-center">
                     By Bhadra Group

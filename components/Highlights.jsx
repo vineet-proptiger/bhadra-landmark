@@ -44,8 +44,8 @@ const Highlights = ({ setIsOpen }) => {
           <span className="text-[#1C3F64] font-bold text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
             PROJECT HIGHLIGHTS
           </span>
-          <h2 className="text-[#111111] text-[26px] sm:text-[32px] md:text-[38px] font-extrabold m-0 leading-tight md:whitespace-nowrap">
-            Highlights of Bhadra Landmark 95
+          <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[32px] font-extrabold m-0 leading-tight md:whitespace-nowrap">
+            Highlights of Bhadra Landmark Kengeri
           </h2>
         </div>
 

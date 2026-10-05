@@ -5,10 +5,10 @@
 @import 'aos/dist/aos.css';
 
 /* ═══════════════════════════════════════════════════════════════
-   THEME VARIABLES — Bhadra Landmark 95
+   THEME VARIABLES — Bhadra Landmark
    ═══════════════════════════════════════════════════════════════ */
 :root {
-  /* ── Bhadra Landmark 95 Blue Accent Palette ── */
+  /* ── Bhadra Landmark Blue Accent Palette ── */
   --color-gold: #1C3F64;
   --color-gold-light: #285586;
   --color-gold-dark: #132c46;
@@ -216,7 +216,7 @@
     color: inherit;
   }
 
-  /* ── Bhadra Landmark 95 Blue scrollbar ── */
+  /* ── Bhadra Landmark Blue scrollbar ── */
   ::-webkit-scrollbar {
     width: 6px;
   }
@@ -557,7 +557,7 @@
   }
 }
 
-/* ─── Bhadra Landmark 95 Hero Styles ─────────────────────────────────── */
+/* ─── Bhadra Landmark Hero Styles ─────────────────────────────────── */
 .hero-section {
   font-family: var(--font-poppins), 'Poppins', sans-serif;
 }

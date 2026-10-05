@@ -16,7 +16,7 @@ const Overview = ({ setIsOpen }) => {
             <div className="relative w-full max-w-[480px] h-[320px] sm:h-[380px] md:h-[430px] lg:h-[470px] rounded-[20px] overflow-hidden shadow-[0_10px_35px_rgba(0,0,0,0.08)]">
                <Image 
                  src={overviewImage} 
-                 alt="About Bhadra Landmark 95" 
+                 alt="About Bhadra Landmark Kengeri" 
                  fill 
                  className="object-cover" 
                  sizes="(max-width: 1024px) 100vw, 50vw" 
@@ -39,10 +39,10 @@ const Overview = ({ setIsOpen }) => {
               <div className="mb-5 pr-0 lg:pr-6">
                 <div className={`text-[#6c757d] text-[15px] leading-[1.7] text-justify ${!isExpanded ? 'line-clamp-5 overflow-hidden' : ''}`}>
                   <p className="m-0 mb-3">
-                    Bhadra Landmark 95 is an ultra-luxurious residential project located on Bhadra Road, Kengeri, Bengaluru. Spanning 23 acres, this grand development redefines high-rise living with its 4 towering structures, each soaring 99 floors high. Designed to offer an unparalleled lifestyle, the project features 2016 premium residences that blend modern aesthetics with thoughtful planning.
+                    Bhadra Landmark Kengeri is an ultra-luxurious residential project located on Bhadra Road, Kengeri, Bengaluru. Spanning 23 acres, this grand development redefines high-rise living with its 4 towering structures, each soaring 99 floors high. Designed to offer an unparalleled lifestyle, the project features 2016 premium residences that blend modern aesthetics with thoughtful planning.
                   </p>
                   <p className="m-0">
-                    Bhadra Kengeri offers spacious 3 &amp; 4 BHK apartments ranging from 2106–2601 sq. ft., ensuring ample space for comfort and luxury. With a price range of ₹ 3 Cr*, these residences are meticulously designed to provide an elite living experience. The project adheres to 100% Vastu compliance, fostering harmony and well-being for its residents. Furthermore, the no common walls concept ensures absolute privacy and exclusivity.
+                    Bhadra Landmark Kengeri offers spacious 3 &amp; 4 BHK apartments ranging from 2106–2601 sq. ft., ensuring ample space for comfort and luxury. With a price range of ₹ 3 Cr*, these residences are meticulously designed to provide an elite living experience. The project adheres to 100% Vastu compliance, fostering harmony and well-being for its residents. Furthermore, the no common walls concept ensures absolute privacy and exclusivity.
                   </p>
                 </div>
                 <button

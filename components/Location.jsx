@@ -90,7 +90,7 @@ const Location = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="strict-origin-when-cross-origin"
-              title="BHADRA LANDMARK, # 95, Kengeri, Bengaluru Google Maps Location"
+              title="BHADRA LANDMARK, Kengeri, Bengaluru Google Maps Location"
               className="w-full h-full block"
             />
           </div>

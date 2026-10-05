@@ -3,38 +3,38 @@ import React, { useState } from 'react'
 
 const faqData = [
   {
-    question: 'What configurations are available at Bhadra Landmark 95 Kengeri?',
+    question: 'What configurations are available at Bhadra Landmark Kengeri?',
     answer: (
       <>
-        Bhadra Landmark 95 Kengeri offers spacious <strong className="font-semibold text-[#222222]">3 BHK and 4 BHK luxury apartments</strong> with modern layouts, premium interiors, and large balconies. The residences are thoughtfully designed to maximize natural light, ventilation, and comfortable living for modern families.
+        Bhadra Landmark Kengeri offers spacious <strong className="font-semibold text-[#222222]">3 BHK and 4 BHK luxury apartments</strong> with modern layouts, premium interiors, and large balconies. The residences are thoughtfully designed to maximize natural light, ventilation, and comfortable living for modern families.
       </>
     ),
   },
   {
-    question: 'Is Bhadra Landmark 95 Kengeri RERA registered?',
+    question: 'Is Bhadra Landmark Kengeri RERA registered?',
     answer: (
       <>
-        Yes, <strong className="font-semibold text-[#222222]">Bhadra Landmark 95 Kengeri</strong> is a RERA-registered project. Buyers are advised to verify the latest RERA registration number and project details on the official Karnataka RERA website or with the authorized sales team before making a purchase.
+        Yes, <strong className="font-semibold text-[#222222]">Bhadra Landmark Kengeri</strong> is a RERA-registered project. Buyers are advised to verify the latest RERA registration number and project details on the official Karnataka RERA website or with the authorized sales team before making a purchase.
       </>
     ),
   },
   {
-    question: 'How tall is Bhadra Landmark 95 Kengeri and how many towers does it have?',
+    question: 'How tall is Bhadra Landmark Kengeri and how many towers does it have?',
     answer:
-      'Bhadra Landmark 95 Kengeri is a premium high-rise residential development featuring multiple elegantly designed towers. The project offers panoramic city views, modern architecture, and world-class amenities. For the latest tower count and floor details, please contact the official sales team.',
+      'Bhadra Landmark Kengeri is a premium high-rise residential development featuring multiple elegantly designed towers. The project offers panoramic city views, modern architecture, and world-class amenities. For the latest tower count and floor details, please contact the official sales team.',
   },
   {
-    question: 'Where exactly is Bhadra Landmark 95 Kengeri located?',
+    question: 'Where exactly is Bhadra Landmark Kengeri located?',
     answer: (
       <>
-        Bhadra Landmark 95 Kengeri is strategically located on <strong className="font-semibold text-[#222222]">Kengeri, Bengaluru</strong>, offering excellent connectivity to <strong className="font-semibold text-[#222222]">Bhadra Road, Bengaluru-Greater Bengaluru Expressway, Mysore Road, NICE Road, and major IT Hubs</strong>. The location is surrounded by top schools, hospitals, shopping malls, and business hubs.
+        Bhadra Landmark Kengeri is strategically located on <strong className="font-semibold text-[#222222]">Kengeri, Bengaluru</strong>, offering excellent connectivity to <strong className="font-semibold text-[#222222]">Bhadra Road, Bengaluru-Greater Bengaluru Expressway, Mysore Road, NICE Road, and major IT Hubs</strong>. The location is surrounded by top schools, hospitals, shopping malls, and business hubs.
       </>
     ),
   },
   {
-    question: 'Is Bhadra Landmark 95 Kengeri a good investment?',
+    question: 'Is Bhadra Landmark Kengeri a good investment?',
     answer:
-      "Yes, Bhadra Landmark 95 Kengeri is considered a promising investment due to its prime location on Bhadra Road, excellent connectivity, premium amenities, and strong infrastructure growth in the surrounding area. The project's strategic location and the increasing demand for luxury residences in Bengaluru make it an attractive option for both end-users and investors.",
+      "Yes, Bhadra Landmark Kengeri is considered a promising investment due to its prime location on Bhadra Road, excellent connectivity, premium amenities, and strong infrastructure growth in the surrounding area. The project's strategic location and the increasing demand for luxury residences in Bengaluru make it an attractive option for both end-users and investors.",
   },
 ]
 
